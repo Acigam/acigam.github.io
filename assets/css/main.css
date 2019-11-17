@@ -1,0 +1,93 @@
+body {
+    font-size: 14px;
+    color: #a4a4a4;
+    background-color: #1b1b1b;
+    padding: 0px;
+    margin: 0px;
+    margin-top: 70px;
+    overflow: hidden;
+}
+.middle{
+    justify-content: center;
+    display: flex;
+}
+.text {
+    padding-top: 50px;
+    color: white;
+    font-size: 32px;
+    font-family: "Courier New";
+    cursor: pointer;
+}
+.hidden {
+    max-width: 0;
+    opacity: 0;
+    transition: 0.5s ease-in;
+}
+.text:hover .hidden {
+    opacity: 1;
+    max-width: 1em;
+}
+.title {
+    font-size: 32px;
+    font-family: Courier New;
+    padding-top: 10px; 
+}
+.italica {
+    font-weight: lighter;
+    color: white;
+    font-family: Courier;
+}
+.text-center {
+    text-align: center
+}
+.fa {
+    padding: 15px;
+    font-size: 30px;
+    width: 60px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    color: #a4a4a4;
+}
+.fa:hover {
+    color: white;
+    opacity: 1;
+}
+.footer{
+    font-size: 32px;
+    position: relative;
+    bottom: 10px;
+    right: 30px;
+    width: 100%;
+    color: #AAAAAA;
+    z-index: 4;
+    text-align: right;
+    margin-top: 100px;
+}
+.img {
+    border-radius: 50%;
+    width: 270px;
+    height: 270px;
+    overflow: hidden;
+    display: inline-block;
+    position: relative;
+    right: 40px;
+}
+.img2 {
+    border-radius: 50%;
+    overflow: hidden;
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 194px;
+    left: 52%;
+}
+
+
+@media (max-width: 768px){
+    .footer{
+        position: fixed;
+        bottom: 50px;
+    }
+}
