@@ -4,7 +4,7 @@ body {
     background-color: #1b1b1b;
     padding: 0px;
     margin: 0px;
-    margin-top: 70px;
+    margin-top: 50px;
     overflow: hidden;
 }
 .middle{
@@ -56,13 +56,12 @@ body {
 .footer{
     font-size: 32px;
     position: relative;
-    bottom: 10px;
-    right: 30px;
     width: 100%;
     color: #AAAAAA;
     z-index: 4;
     text-align: right;
     margin-top: 100px;
+    right: 50px;
 }
 .img {
     border-radius: 50%;
@@ -85,9 +84,24 @@ body {
 }
 
 
-@media (max-width: 768px){
+@media (max-width: 720px){
+    .fa {
+        padding: 5px;
+        font-size: 15px;
+        width: 30px;
+        text-align: center;
+        text-decoration: none;
+        border-radius: 50%;
+        color: #a4a4a4;
+    }
     .footer{
-        position: fixed;
-        bottom: 50px;
+        font-size: 32px;
+        position: relative;
+        width: 100%;
+        color: #AAAAAA;
+        z-index: 4;
+        text-align: center;
+        margin-top: 100px;
+        right: 0px;
     }
 }
