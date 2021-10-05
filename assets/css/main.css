@@ -6,16 +6,15 @@ body {
     margin: 0px;
     margin-top: 50px;
     overflow: hidden;
+    font-family: system-ui;
 }
 .middle{
     justify-content: center;
     display: flex;
 }
 .text {
-    padding-top: 50px;
     color: white;
     font-size: 32px;
-    font-family: "Courier New";
     cursor: pointer;
 }
 .hidden {
@@ -29,13 +28,11 @@ body {
 }
 .title {
     font-size: 32px;
-    font-family: Courier New;
     padding-top: 10px; 
 }
 .italica {
     font-weight: lighter;
     color: white;
-    font-family: Courier;
 }
 .text-center {
     text-align: center
@@ -55,13 +52,13 @@ body {
 }
 .footer{
     font-size: 32px;
-    position: relative;
-    width: 100%;
     color: #AAAAAA;
-    z-index: 4;
     text-align: right;
-    margin-top: 100px;
+    margin-bottom: 30px;
     right: 50px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 .img {
     border-radius: 50%;
@@ -76,10 +73,10 @@ body {
     border-radius: 50%;
     overflow: hidden;
     display: inline-block;
-    width: 150px;
-    height: 150px;
+    width: 120px;
+    height: 120px;
     position: absolute;
-    top: 194px;
+    top: 200px;
     left: 52%;
 }
 
